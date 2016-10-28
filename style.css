@@ -86,3 +86,12 @@ button {
   width:100%;
   margin: 20px auto;
 }
+img#small {
+  margin-left: 47%;
+  margin-bottom: -39px;
+}
+footer {
+  margin: 40px auto;
+  text-align: center;
+  font-size: 0.7em;
+}
