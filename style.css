@@ -2,21 +2,84 @@
 
 #largeForkLogo {
   float: left;
+  margin-top: 10px;
 
 }
 
+
+#delciousBestFoodId {
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+#delicious {
+  font-family: 'Yellowtail', cursive;
+  margin: 0px;
+}
+
+#bestFood {
+  font-family: 'Economica', sans-serif;
+  margin: 0px;
+  color: grey;
+
+}
 
 #smallPrinterIcon {
 
 }
 
-#ChocPizzaMainPic {
-  margin-left: 50%;
-  margin-top: 100px;
+#ChocPizzaPosted {
+  display: inline-block;
+}
+
+#posted {
+  font-family: 'Economica', sans-serif;
+  font-size: .75em;
+  color: grey;
+  margin-top: 0px;
+}
+#chocPizzaText {
+  font-family: impact;
+  font-size: 2em;
+  margin-bottom: 0px;
+}
+
+#chocoPizzaMainPic {
+  float: left;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  /*display: inline-block;*/
+  /*text-align: center;*/
+}
+
+#site-nav{
+  float: right;
+  margin-top: 30px;
 }
 
 .socialMediaLinks {
   list-style-type: none;
   float: right;
+  margin: 1px;
+}
+
+#mailId{
+
+}
+
+#rssId{
+  margin-left: 12px;
+}
+
+#printerIconAndText{
+  /*float: right;*/
   display: inline-block;
+  margin-left: 600px;
+}
+
+#printText{
+  display: inline-block;
+  color: grey;
 }
