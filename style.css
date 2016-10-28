@@ -1,13 +1,73 @@
 /*background-image: url("list-bg.png");*/
+.box {
+  width:70%;
+  margin:0 auto;
+}
+.info {
+  width:100%;
+  margin: 0 auto;
 
+}
+h4 {
+  margin:0;
+}
+
+.info p {
+  text-align: left;
+  /*margin: 20px auto 20px;*/
+  padding-top: 20px;
+  font-family:Times;
+  font-size: 1em;
+  font-weight: 200;
+  text-indent: 20px;
+}
 #largeForkLogo {
   float: left;
 
 }
+#ingredientBackground {
+  width:100%;
+  float:right;
+  margin:auto;
+}
+.listing ul {
+  display:inline-block;
+  width:40%;
+  /*padding: 3%;*/
+  list-style-type:;
+}
 
+.listing {
+  background-image: url('img/list-bg.png');
+  width: 100%;
+  margin:30px auto;
+}
 
 #smallPrinterIcon {
 
+}
+
+.line {
+  height: 5px;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+}
+.person {
+  display:inline-block;
+  width:60%;
+  margin: 20px auto;
+}
+
+.person p {
+  font-size: 1em;
+  font-weight: 200;
+  /*width:80%;*/
+}
+button {
+  color:white;
+  background-color: rgba(255,146,84,0.3);
+  vertical-align: baseline;
 }
 
 #ChocPizzaMainPic {
@@ -19,4 +79,19 @@
   list-style-type: none;
   float: right;
   display: inline-block;
+}
+#bottomline {
+  height: 2px;
+  background-color: rgba(0, 4, 0, 0.5);
+  width:100%;
+  margin: 20px auto;
+}
+img#small {
+  margin-left: 47%;
+  margin-bottom: -39px;
+}
+footer {
+  margin: 40px auto;
+  text-align: center;
+  font-size: 0.7em;
 }
