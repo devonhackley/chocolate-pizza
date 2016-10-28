@@ -1,0 +1,22 @@
+/*background-image: url("list-bg.png");*/
+
+#largeForkLogo {
+  float: left;
+
+}
+
+
+#smallPrinterIcon {
+
+}
+
+#ChocPizzaMainPic {
+  margin-left: 50%;
+  margin-top: 100px;
+}
+
+.socialMediaLinks {
+  list-style-type: none;
+  float: right;
+  display: inline-block;
+}
