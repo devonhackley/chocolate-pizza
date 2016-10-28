@@ -1,10 +1,39 @@
 /*background-image: url("list-bg.png");*/
+.info {
+  width:60%;
+  margin: 0 auto;
 
+}
+
+.info p {
+  text-align: left;
+  /*margin: 20px auto 20px;*/
+  padding-top: 20px;
+  font-family:Times;
+  font-size: 1em;
+  font-weight: 200;
+  text-indent: 20px;
+}
 #largeForkLogo {
   float: left;
 
 }
+#ingredientBackground {
+  width:60%;
+  float:right;
+  margin:auto;
+}
+.listing ul {
+  display:inline-block;
+  width:40%;
+  /*padding: 3%;*/
+}
 
+.listing {
+  background-image: url('img/list-bg.png');
+  width: 70%;
+  margin:0 auto;
+}
 
 #smallPrinterIcon {
 
