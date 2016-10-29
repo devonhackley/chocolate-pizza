@@ -1,11 +1,48 @@
 /*background-image: url("list-bg.png");*/
+.box {
+  width:70%;
+  margin:0 auto;
+}
+.info {
+  width:100%;
+  margin: 0 auto;
 
+}
+h4 {
+  margin:0;
+}
+
+.info p {
+  text-align: left;
+  /*margin: 20px auto 20px;*/
+  padding-top: 20px;
+  font-family:Times;
+  font-size: 1em;
+  font-weight: 200;
+  text-indent: 20px;
+}
 #largeForkLogo {
   float: left;
   margin-top: 10px;
 
 }
+#ingredientBackground {
+  width:100%;
+  float:right;
+  margin:auto;
+}
+.listing ul {
+  display:inline-block;
+  width:40%;
+  /*padding: 3%;*/
+  list-style-type:;
+}
 
+.listing {
+  background-image: url('img/list-bg.png');
+  width: 100%;
+  margin:30px auto;
+}
 
 #delciousBestFoodId {
   display: inline-block;
@@ -29,6 +66,7 @@
 
 }
 
+/*<<<<<<< HEAD*/
 #ChocPizzaPosted {
   display: inline-block;
 }
@@ -38,25 +76,56 @@
   font-size: .75em;
   color: grey;
   margin-top: 0px;
+  margin-bottom: -10px;
+
 }
+
 #chocPizzaText {
   font-family: impact;
   font-size: 2em;
   margin-bottom: 0px;
 }
 
-#chocoPizzaMainPic {
+/*#chocoPizzaMainPic {
   float: left;
   width: 500px;
   height: 500px;
-  margin: auto;
+  margin: auto;*/
   /*display: inline-block;*/
   /*text-align: center;*/
 }
 
-#site-nav{
+/*#site-nav{
   float: right;
-  margin-top: 30px;
+  margin-top: 30px;*/
+/*=======*/
+.line {
+  height: 5px;
+  width: 100%;
+  margin: auto;
+  background-color: black;
+}
+.person {
+  display:inline-block;
+  width:60%;
+  margin: 20px auto;
+}
+
+.person p {
+  font-size: 1em;
+  font-weight: 200;
+  /*width:80%;*/
+}
+button {
+  color:white;
+  background-color: rgba(255,146,84,0.3);
+  vertical-align: baseline;
+}
+
+#ChocPizzaMainPic {
+  margin-left: 50%;
+  margin-top: 100px;
+/*>>>>>>> 728e1e6f9d71b6db0ab4c3531e34f96c0fdd752f*/
 }
 
 .socialMediaLinks {
@@ -74,7 +143,7 @@
 }
 
 #printerIconAndText{
-  /*float: right;*/
+  float: right;
   display: inline-block;
   margin-left: 600px;
 }
@@ -82,4 +151,19 @@
 #printText{
   display: inline-block;
   color: grey;
+}
+#bottomline {
+  height: 2px;
+  background-color: rgba(0, 4, 0, 0.5);
+  width:100%;
+  margin: 20px auto;
+}
+img#small {
+  margin-left: 47%;
+  margin-bottom: -39px;
+}
+footer {
+  margin: 40px auto;
+  text-align: center;
+  font-size: 0.7em;
 }

@@ -9,6 +9,7 @@ font-family: 'Yellowtail', cursive; -->
     <title></title>
   </head>
   <body>
+  <div class="box">
     <header>
       <img src="img/logo.png" id="largeForkLogo" alt="large fork logo icon">
       <div id="delciousBestFoodId">
@@ -48,8 +49,7 @@ font-family: 'Yellowtail', cursive; -->
     </section>
     <section class="list">
       <article class="listing">
-        <img src="img/list-bg.png" id="ingredientBackground" alt="list-bg icon">
-        <p>
+        <!-- <img src="img/list-bg.png" id="ingredientBackground" alt="list-bg icon"> -->
           <ul>
             <li>1 1/2 cups milk</li>
             <li>1/2 cup mascarpone</li>
@@ -66,25 +66,27 @@ font-family: 'Yellowtail', cursive; -->
             <li>2 tbsp butter</li>
             <li>1 cup honey roasted pecans, roughly chopped</li>
           </ul>
-        </p>
       </article>
     </section>
     <div class="line"></div>
     <section class="bottom">
       <article class="recipe">
         <img src="img/van-pic.png" id="vanessaPic" alt="van pic icon">
-        <h4>Vanessa Stevenson</h4>
-        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-        <button type="button" name="share-recipe"></button>
+        <div class="person">
+          <h4>Vanessa Stevenson</h4>
+          <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+        </div>
+        <button type="button" name="share-recipe" id= "button">SHARE RECIPE</button>
       </article>
     </section>
 
-    <div class="line"></div>
-    <img src="img/small-logo.png" id="smallForkLogo"
+    <img src="img/small-logo.png" id="small"
     alt="small fork logo icon">
+    <div id="bottomline"></div>
   </section>
 
 </main>
+</div>
 <footer>
   <p>Delcious &copy; 2013. All Rights Reserved.</p>
   <p>Proudly published with Ghost.</p>
